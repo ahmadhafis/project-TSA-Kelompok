@@ -13,10 +13,10 @@ if ($rowcount > 0) {
 }
 if ($fechResult['role'] == 'admin') {
     echo "Anda berhasil login ";
-    echo "<a href='tugascss.php'>Menuju halaman selanjutnya</a>";
+    echo "<a href='index.html'>Menuju halaman selanjutnya</a>";
 } elseif ($fechResult['role'] == 'user') {
     echo "Anda berhasil login ";
-    echo "<a href='tugascss.php'>Menuju halaman selanjutnya sebagai user</a>";
+    echo "<a href='index.html'>Menuju halaman selanjutnya sebagai user</a>";
 } else {
     echo "Anda gagal login ";
     echo " <a href='sessionloginForm.html'>Login Form</a>";
